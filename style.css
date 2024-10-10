@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6efe2;
+    color: #333;
+}
+
+header {
+    background-color: #2e5947;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    margin-left: auto;
+    align-items: center; 
+    margin-right: 20px; 
+}
+
+.icons img:hover {
+    transform: scale(1.1);     
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
+.icons img {
+    margin-left: 20px; 
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    object-fit: cover;
+}
+
+
+
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #eaf6f0;
+    position: relative;
+}
+
+.content h2 {
+    font-size: 36px;
+    color: #344e41;
+    line-height: 1.5;
+}
+
+.content p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.shop-now-btn {
+    display: inline-block;
+    background-color: #2e5947;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.shop-now-btn:hover {
+    background-color: #a31313;
+    transform: scale(1.1);      
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.image img {
+    width: 600px;
+    height: 550px;
+}
+
+.brands {
+    width: 1125px;           
+    height: 65px;            
+    background-color: #2e5947; 
+    border-radius: 56px;   
+    margin: 20px auto;    
+    display: flex;          
+    justify-content: space-between; 
+    align-items: center;   
+    padding: 20px 180px;       
+}
+
+.brands img {
+    height: 60px;
+}
+
+
+
+.dressFemale {
+    display: flex;              
+    justify-content: center;     
+    align-items: center;         
+    gap: 80px;                 
+    margin: 100px 50px 50px;        }
+
+
+.dressMale {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    gap: 80px;                  
+    margin: 100px 50px 50px;         
+}
+
+
+.dressItem {
+    text-align: center;         
+}
+
+.dressItem img {
+    width: 150px;              
+    height: 150px;             
+    border-radius: 50%;      
+    object-fit: cover;         
+    margin-bottom: 10px;      
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.dressItem img:hover {
+    transform: scale(1.1);     
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
+.promobanner {
+    width: 1099px;              
+    height: 283px;               
+    border-radius: 12px;         
+    background-color: #2e5947;   
+    overflow: hidden;            
+    margin: 20px auto;           
+}
+
+.promobanner img {
+    width: 100%;                  
+    height: auto;                
+    object-fit: cover;      
+}
+
+.promo2banner {
+    display: flex;                 
+    justify-content: space-between; 
+    margin: 20px auto;            
+    width: 1150px;               
+}
+
+.promo1, .promo2 {
+    width: 563px;                 
+    height: 220px;               
+    border-radius: 12px;         
+    overflow: hidden;           
+}
+
+.promo1 img, .promo2 img {
+    width: 100%;                  
+    height: 100%;                 
+    object-fit: cover;         
+}
+
+.ProdukRekomendasi {
+    text-align: center; 
+    margin: 50px 0;   
+    margin-bottom: 150px; 
+}
+
+
+.ProdukRekomendasi h1 {
+    font-weight: bold;  
+    margin-bottom: 30px; 
+}
+
+.produk {
+    display: inline-block; 
+    margin: 0 85px;      
+}
+
+.produk:hover {
+    transform: scale(1.1);    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.produk-image {
+    width: 200px;        
+    height: 200px;      
+    border-radius: 50%;  
+    object-fit: cover;     
+}
+
+.produk-title {
+    font-weight: bold;   
+    margin-top: 10px;     
+}
+
+footer {
+    width: auto;               
+    height: 331px;                
+    background-color: #2e5947;   
+    color: white;                 
+    display: flex;               
+    justify-content: space-between; 
+    padding: 20px;               
+    margin: 0 auto;              
+}
+
+.footer-content {
+    width: 100%;                
+    display: flex;              
+    justify-content: space-between; 
+}
+
+.about-us, .follow-us {
+    width: 45%;                
+}
+
+h2 {
+    margin-bottom: 10px;         
+}
+
+.iconse {
+    display: flex;              
+}
+
+.social-icon {
+    width: 80px;                 
+    height: 80px;               
+    margin-right: 15px;         
+    transition: transform 0.3s; }
+
+
+.social-icon:hover {
+    transform: scale(1.1);      
+    opacity: 0.8;                
+}
